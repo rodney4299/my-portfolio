@@ -9,7 +9,7 @@ def lambda_handler(event, context):
     topic = sns.Topic("arn:aws:sns:us-east-1:307683753141:deployPortfolioTopic")
 
     location = {
-        "bucketName":"portfoliobuild.rodneymorris"
+        "bucketName":"portfoliobuild.rodneymorris",
         "objectKey":"portfoliobuild.zip"
     }
 
@@ -17,8 +17,8 @@ def lambda_handler(event, context):
         job = event.get("CodePipeline.job")
 
         if job:
-            for artifact in job["data"] ["inputArtifacts"]
-                if artifact["name"] == "MyAppBuild"
+            for artifact in job["data"] ["inputArtifacts"]:
+                if artifact["name"] == "MyAppBuild":
                     location = artifact["location"]["s3Location"]
 
         print "Building portfolio from " + str(location)
