@@ -22,4 +22,4 @@ const myWorkProps = [
   }
 ]
 
-ReactDOM.render(<ExampleWork workFunc={myWorkProps}/>, document.getElementById("myWork"));
+ReactDOM.render(<ExampleWork work={myWorkProps}/>, document.getElementById("myWork"));
