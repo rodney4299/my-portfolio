@@ -9,19 +9,29 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cardo"/>
+
+    <link rel="stylesheet" href="styles/resume-style-portion.css"/>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/resume.js"></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!-- <script>
+      $(function(){
+        $("#myResume").load("resume-portion.html");
+      });
+    </script> -->
   </head>
 
   <body>
     <main class="overflow--auto">
       <h1 class="color--skyBlue section__heading--largest">
-        <!--Your name goes here -->
         Rodney Morris
       </h1>
 
       <ul class="section--social">
 
-        <!--Links to relevant professional social media & resume -->
-        <!-- See: http://fontawesome.io/icons/#brand for more -->
+        <!--Icon links to relevant professional social media & resume -->
+        <!-- See: http://fontawesome.io/icons/#brand for more on icons -->
 
         <!-- Link to Linked In profile -->
         <li class="socialWrapper">
@@ -69,33 +79,9 @@
     </section>
 
     <section class="section section--alignLeft section--description">
-      <p class="color--darkgrey section__description75">
-        Mr. Morris has 12+ years of experience as a Software Developer / Engineer
-        and 3+ years of Project Management / Lead experience working in cleared
-        and un-cleared environments. He has obtained a Master of Science in
-        Systems Engineering and a Bachelor of Science in Computer Science from
-        reputable institutions. Mr. Morris possesses extensive hands-on experience
-        with the latest innovative frameworks and technologies including but not
-        limited to Agile Scrum, MS Project, CloudForge, VMware, Windows and Linux
-        servers, Enterprise Architect, MS Visio, BPMN, Spring, Oracle, JPA, J2EE,
-        REST, HTML5, CSS3, JavaScript, Maven, and JIRA. Mr. Morris has excellent
-        written and verbal communication skills and has the interpersonal skills
-        to lead and/or work well within a team to meet or exceed customer
-        expectations and accomplish goals.
-
-        Mr. Morris Career Highlights:
-        <ul>
-          <li>Team Lead on the AFA, LOGCOP, and Graham Tech IRAD Development projects for Leidos and Graham Technologies, where his teams successfully met project milestones</li>
-          <li>Positively recognized with Employee of the Quarter, outstanding support, and Above and Beyond awards from Leidos, the Defense Contract Management Agency customer, and Accenture Technology Solutions respectively</li>
-          <li>Obtained a Master of Science from George Washington University while working 40+ hours p/ week with Leidos.</li>
-          <li>Certified Scrum Master, April 2014</li>
-          <li>CMMI-DEV v1.3 (with CMMI-SVC supplement) and SCAMPI Appraisal Team Member, March 2014</li>
-          <li>Sun Certified Associate for the Java Platform, November 2006</li>
-          <li>Cleared up to TS/SCI w/ CI Polygraph</li>
-        </ul>
-      </p>
-
-
+      <div id="myResume">
+    </section>
+  </div>
 
     <script type="text/javascript" src="/dist/build.js"></script>
   </body>

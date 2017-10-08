@@ -8,7 +8,7 @@ import { shallow } from 'enzyme';
 
 const myWorkProps = [
   {
-    'title': "EIS-eGRC",
+    'title': "Exective Information System - Enterprise Governamce Risk and Compliance",
     'image': {
       'desc': "screenshot of an enterprise application project involving front, middle, and back-end code",
       'src': "https://s3.amazonaws.com/portfolio.rodneymorris/images/EIS_Logo.PNG",

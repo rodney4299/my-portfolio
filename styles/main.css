@@ -59,10 +59,10 @@ body {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/*h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   letter-spacing: .1rem;
-}
+}*/
 
 /*
   Helpers
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .section {
   font-size: 4.2rem;
-  min-height: 70vh;
+  min-height: 15vh;
   position: relative;
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 5rem;
   font-size: 4rem;
   z-index: 1;
-  curson: pointer;
+  cursor: pointer;
 }
 
 .modal__text {
