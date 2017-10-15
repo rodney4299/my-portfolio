@@ -15,4 +15,5 @@ artifacts:
     - favicon.ico
     - styles/*
     - images/*
+    - js/resume.js
     - dist/bundle.js
