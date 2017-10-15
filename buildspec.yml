@@ -11,7 +11,8 @@ phases:
 artifacts:
   files:
     - index.html
+    - resume-portion.html
     - favicon.ico
-    - styles/main.CSS
+    - styles/*
     - images/*
     - dist/bundle.js
