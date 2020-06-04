@@ -23,7 +23,7 @@
   "homepage": "https://github.com/rodney4299/my-portfolio#readme",
   "dependencies": {
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.0.1",
     "webcomponentsjs": "^1.0.2"
   },
   "devDependencies": {
