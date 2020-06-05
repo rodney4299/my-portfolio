@@ -21,7 +21,25 @@
 */
 
 .background--skyBlue {
+  /* background-color: rgb(52, 152, 219); */
+  /* background-image: url(https://s3.amazonaws.com/portfolio.rodneymorris/images/contactbgd.png); */
+  /* background-image: url(/portfolio.rodneymorris/images/contactbgd.png); */
+  /* background-image: url(/images/contactbgd.png); */
+  /* background-image: url(images/contactbgd.png); */
+  /* background-image: url(../images/contactbgd.png); */
+
+  background-repeat:no-repeat;
+  width:1025px !important;
+  margin-top:100px !important;
+}
+
+.background--wavyBlueImg {
+  /* position: absolute; */
   background-color: rgb(52, 152, 219);
+  /* background-image: url(../images/contactbgd.png); */
+  /* background-position: right center;
+  background-repeat: no-repeat;
+  z-index: -1; */
 }
 
 .color--skyBlue {
@@ -200,6 +218,17 @@ body {
   font-size: 3rem;
 }
 
+
+.section--leadership {
+  float: right;
+  line-height: 10rem;
+  margin-right: 2rem;
+}
+
+.social--leadership-Wrapper {
+  display: inline-block;
+  font-size: 3rem;
+}
 
 /*
   Modal

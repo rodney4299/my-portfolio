@@ -37,7 +37,7 @@ a:link, a:active, a:focus, a:visited, a:hover {color: #444; text-decoration: non
 @media screen and (min-width: 320px) {
     html, body {margin: 0; padding: 0; text-shadow: none;}
 
-    header, header h2, header p, .page, footer {background: #fff; margin: 0 auto; padding: 0; width: 93.75%;}
+    header, header h2, header p, .page, footer {background: #fff; margin: 0 auto; padding: 0; width: 93.75%; }
     header {margin-bottom: 1em;}
     header h2, header p {margin-left: 0; padding-left: 0;}
     .page .resume_content, .page .resume_skills {float: none; margin: 0; padding: 0; width: 100%;}

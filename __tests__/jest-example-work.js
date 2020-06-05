@@ -8,7 +8,7 @@ import { shallow } from 'enzyme';
 
 const myWorkProps = [
   {
-    'title': "Exective Information System - Enterprise Governamce Risk and Compliance",
+    'title': "Exective Information System - Enterprise Governance Risk and Compliance",
     'image': {
       'desc': "screenshot of an enterprise application project involving front, middle, and back-end code",
       'src': "https://s3.amazonaws.com/portfolio.rodneymorris/images/EIS_Logo.PNG",
@@ -18,7 +18,7 @@ const myWorkProps = [
   {
     'title': "Online Portfolio",
     'image': {
-      'desc': "screenshot of a project involving chemistry",
+      'desc': "Online resume",
       'src': "https://s3.amazonaws.com/portfolio.rodneymorris/images/Portfolio_Image.PNG",
       'comment': `"A multi-line" comment hello
                   world.`
