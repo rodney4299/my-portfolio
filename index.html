@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Rodney Morris Portfolio</title>
+    <title>R. Morris Portfolio</title>
     <link rel="stylesheet" href="styles/main.css"/>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -13,23 +13,17 @@
     <link rel="stylesheet" href="styles/resume-style-portion.css"/>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/resume.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
 
     <meta name="description" content="Rodney Morris professional resume online.">
     <meta name="keywords" content="Rodney Morris, Rodney D. Morris">
     <link rel="icon" type="image/png" href="images/favicon/favicon.ico"/>
-
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-    <!-- <script>
-      $(function(){
-        $("#myResume").load("resume-portion.html");
-      });
-    </script> -->
   </head>
 
   <body>
     <main class="overflow--auto">
       <h1 class="color--skyBlue section__heading--largest">
-        Online Portfolio
+        Rodney D. Morris
       </h1>
 
       <ul class="section--social">
@@ -60,18 +54,17 @@
         <!-- Link to resume, probably a .pdf -->
         <li class="socialWrapper">
           <a class="social color--skyBlue"
-             title="Resume"
-             href="https://drive.google.com/open?id=0B1GtCerNrVLJejlTTlczTm5uZ0k">
-            <i class="fa fa-file-text"></i>
+             title="Detailed Leadership Experiences"
+             href="#">
+            <i class="fa fa-file-text" onClick="leadershipExpereince()"></i>
           </a>
         </li>
       </ul>
     </main>
 
-    <section class="background--skyBlue section" style="background-image: url(https://s3.amazonaws.com/portfolio.rodneymorris/images/contactbgd.png)">
-      <h3 class="color--cloud margin--none section__text--centered">
-        Rodney D. Morris
-      </h3>
+    <!-- <section class="background--skyBlue section" style="background-image: url(https://s3.amazonaws.com/portfolio.rodneymorris/images/contactbgd.png)"> -->
+      <section class="background--skyBlue section">
+        <h3 class="color--cloud margin--none section__text--centered">Online Professional Profile</h3></section>
     </section>
 
     <!-- <section class="background--skyBlue section">
@@ -84,11 +77,17 @@
       <div id="myResume"></div>
     </section>
 
+    <!-- <section class="section section--alignLeft section--description"> -->
+      <!-- <a href="#" class="myButton" onClick="leadershipExpereince()">Click to see Detailed Leadership Experiences</a> -->
+      <!-- <input type="button" class="button1" value="Click to see Detailed Leadership Experiences" onClick="leadershipExpereince()"> -->
+    <!-- </section> -->
+    
+    
     <!-- <section class="section section__text--centered"> -->
-    <section class="section--leadership">
-      <!-- <h4>Leadership Principles & Paste Performance</h4> -->
-      <div id="myWork"></div>
-    </section>
+  <!-- <section class="section section--leadership"> -->
+    <!-- <h4>Leadership Principles & Paste Performance</h4> -->
+    <!-- <div id="myWork" class="section section__bubbles"></div> -->
+    <!-- </section> -->
 
     <script type="text/javascript" src="dist/build.js"></script>
   </body>

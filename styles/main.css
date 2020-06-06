@@ -20,7 +20,7 @@
     rgb(236, 240, 241)
 */
 
-.background--skyBlue {
+/* .background--skyBlue { */
   /* background-color: rgb(52, 152, 219); */
   /* background-image: url(https://s3.amazonaws.com/portfolio.rodneymorris/images/contactbgd.png); */
   /* background-image: url(/portfolio.rodneymorris/images/contactbgd.png); */
@@ -28,9 +28,35 @@
   /* background-image: url(images/contactbgd.png); */
   /* background-image: url(../images/contactbgd.png); */
 
-  background-repeat:no-repeat;
+  /* background-repeat:repeat;
   width:1025px !important;
-  margin-top:100px !important;
+  margin-top:100px !important; */
+  
+  /* position: absolute;
+  max-width: 100%;
+  height: 200px; */
+  
+  /* position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%); */
+  /* renders well on all browsers using Edit > Auto Prefix Selection */
+  /* min-width: 100%;
+  min-height: 200%;
+  width: auto;
+  height: 400%; */
+  /* z-index: -1; */
+  /* fallback image incase the browser doesn't play the video */
+  /* background: url("../images/contactbgd.png");
+  background-repeat:repeat;
+  background-size: cover; */
+/* } */
+
+.background--skyBlue {
+  background: url("https://s3.amazonaws.com/portfolio.rodneymorris/images/contactbgd.png");
+  background-repeat: repeat-x; 
+  background-size: cover;
 }
 
 .background--wavyBlueImg {
@@ -144,6 +170,35 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.section__bubbles {
+  /*position: relative;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%); */
+  /* bottom: 10px;
+  width: 50%; */
+  /* border: 3px solid #8AC007; */
+  /* display: block; */
+  /* position: relative; */
+  padding: 0;
+  margin: 0,0,0,0;
+  top: -30%;
+  bottom: 0px;
+  left: -61%; 
+  right: 0%;
+  width: 0%;
+  height: 0%;
+  /* z-index: 999; */
+  /* transform: translate(-50%, -15%); */
+  /*top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100; */
+}
+
 .section__text--left {
   position: absolute;
   top: 10%;
@@ -154,9 +209,16 @@ body {
 .section__exampleWrapper,
 .section__example {
   display: inline-block;
+  height: 12rem;
+  width: 12rem;
+}
+
+/* .section__exampleWrapper,
+.section__example {
+  display: inline-block;
   height: 35rem;
   width: 35rem;
-}
+} */
 
 .section__exampleWrapper {
   margin-right: 4rem;
@@ -176,18 +238,32 @@ body {
 }
 
 .section__exampleTitle{
+  font-size: 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 60%;
+}
+
+/* .section__exampleTitle{
   font-size: 3.4rem;
   text-align: center;
   text-transform: uppercase;
   width: 90%;
-}
+} */
 
 .section__exampleImage {
+  opacity: 0.25;
+  width: 150%;
+  margin-left: -50%;
+  margin-top: -50%;
+}
+
+/* .section__exampleImage {
   opacity: 0.25;
   width: 250%;
   margin-left: -50%;
   margin-top: -50%;
-}
+} */
 
 /*
   Header
@@ -220,7 +296,7 @@ body {
 
 
 .section--leadership {
-  float: right;
+  float: left;
   line-height: 10rem;
   margin-right: 2rem;
 }
@@ -278,4 +354,59 @@ body {
 
 .modal__image {
   opacity: 0.2;
+}
+
+/* .modal__image {
+  opacity: 0.2;
+} */
+
+/* Home Page Experience Button */
+a.button1{
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+a.button1:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+  a.button1{
+    display:block;
+    margin:0.4em auto;
+  }
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #1564ad;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:12px 44px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
